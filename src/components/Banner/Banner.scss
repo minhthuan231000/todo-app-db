@@ -1,0 +1,18 @@
+.banner {
+    display: flex;
+    position: relative;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../../assets/images/Banner1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    &__title {
+        position: absolute;
+        top: 30%;
+        color: #fff;
+        font-weight: bold;
+    }
+}

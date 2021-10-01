@@ -1,0 +1,19 @@
+.nav__box {
+    display: flex;
+    justify-content: flex-start;
+    .nav {
+        &__item {
+            font-weight: 500;
+        }
+        &__link {
+            color: black;
+            text-decoration: none;
+            transition: all 0.25s ease-in-out 0s;
+            &--active,
+            &:hover {
+                cursor: pointer;
+                color: aqua;
+            }   
+        }
+    }
+}
